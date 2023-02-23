@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <title>dbank</title>
+  </head>
+  <body>
+    <div>
+      <img src="dbank_logo.png" alt="DBank" width="100" />
+      <h1>Balance: <span id="value">234</span></h1>
+      <div class="divider"></div>
+      <form action="#">
+        <h2>Amount to topup</h2>        
+        <input id="input-amount" type="number" step="0.01" min=0 name="topUp" value="">
+        <h2>Amount to withdraw</h2>
+        <input id="withdraw-amount" type="number" step="0.01" min=0 name="withdraw" value="" >
+        <input id="submit-btn" type="submit" value="Finalize transaction">
+      </form>
+    </div>
+  </body>
+</html>
